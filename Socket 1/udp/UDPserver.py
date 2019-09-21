@@ -2,7 +2,7 @@
 #Lab 1 UDPserver 
 
 from socket import *
-serverport = 12000
+serverPort = 12000
 serverSocket = socket(AF_INET, SOCK_DGRAM)
 serverSocket.bind(('', serverPort))
 print("The server is ready to receive")
